@@ -38,7 +38,7 @@ body {
     padding-top: 5rem;
     padding-bottom: 5rem;
     /* background-color: #13182c; */
-    background: linear-gradient(to right, #3f0f41, #24101c, #280450);
+    background: linear-gradient(to right, #140f41, #161024, #140450);
 
 }
 
@@ -55,6 +55,7 @@ body {
 .nav-b {
     display: flex;
     gap: 50px;
+    font-size: 18px;
 }
 
 
@@ -98,24 +99,65 @@ body {
     max-width: 30rem;
     font-size: 13.5px;
     font-weight: 800;
-    color: rgb(125, 122, 122);
+    color: rgb(151, 150, 150);
+    display: inline-block;
+    margin-top: 0;
+}
+
+.block-1-btn {
+    margin-top: 30px;
+}
+
+
+.block-1-btn-a {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 20px;
+    /* background-color: #140450; */
+    color: #3b95e0;
+    
+}
+
+.block-1-btn-a:hover{
+    color: white;
+    background:linear-gradient(to bottom right , #2e2343,#3b95e0 ) ;
+    transition: 5ms ease-in-out;
+}
+
+.block-1-btn-b {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 2px;
+    margin-left: 20px;
+    color:white ;
+    background-color: #065a87;
+    
 }
 
 
 
 /* block-2 */
 
-.before-block-2 {
+.before-block-2-1 {
     text-align: center;
     margin-bottom: 5rem;
     /* margin-top: 5rem; */
     color: aliceblue;
     margin-top: 0;
+    font-size: 3rem;
 }
 
-.block-2 {
+.block-2-1 {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     text-align: center;
     gap: 5rem;
@@ -123,76 +165,74 @@ body {
     color: white;
 }
 
-.block-2_1 {
 
-    padding: 10px;
-    border-radius: 10.5px;
-    background: linear-gradient(to bottom right, #87198d, #3a0b69);
-
-
-
+.block-2-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    text-align: center;
+    gap: 5rem;
+    height: 30rem;
+    color: white;
+    padding-right: 5rem;
 }
 
 
-
-.block-2_2 {
-    background: linear-gradient(to bottom right, #87198d, #3a0b69);
-
-    padding: 10px;
-    border-radius: 10.5px;
-
-
-
-}
-
-
-
-.block-2_3 {
-
-    padding: 10px;
-    border-radius: 10.5px;
-    background: linear-gradient(to bottom right, #87198d, #3a0b69);
-
-
-
-}
-
-.block-2_1 p {
-
-    max-width: 20rem;
-
-}
-
-
-.block-2_2 p {
-
-
-    max-width: 20rem;
-}
-
-
-.block-2_3 p {
-
-
-    max-width: 20rem;
-
-}
-
-.block-2-img {
-    width: 18rem;
+.block-2-img-1 {
+    width: 40rem;
     margin-top: 10px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
 }
 
+
+.block-2-img-2 {
+    width: 40rem;
+    margin-top: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+
+.block-2-grid-1-text {
+    text-align: left;
+    margin-left: 15rem;
+    margin-top: 5rem;
+}
+
+
+.block-2-grid-2-text {
+    text-align: left;
+    max-width: 30rem;
+    margin-top: 5rem;
+}
+
+.block-2-grid-1-image {
+
+    padding-right: 10rem;
+
+}
+
+.block-2-grid-2-image {
+
+
+    padding-left: 12rem;
+
+}
 
 /* block-3  */
 .container-3 {
-    background: linear-gradient(to right, #3f0f41, #24101c, #280450);
+    background: linear-gradient(to right, #140f41, #161024, #140450);
     color: white;
-    height: 50rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    padding-top: 10rem;
+    height: 60rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 7rem;
+
+
 }
 
 
@@ -206,10 +246,10 @@ body {
 }
 
 .block-3_sub {
-    background: linear-gradient(to bottom right, #87198d, #3a0b69);
-    border-radius: 10px;
+    background: linear-gradient(to bottom right, #1a0f59, #3a0b69);
+    border-radius: 5px;
     padding: 30px;
-    height: 15rem;
+    height: 18rem;
     align-items: center;
 }
 
@@ -222,29 +262,31 @@ body {
 /* block-4 */
 
 
-.footer{
+.footer {
     height: 25rem;
-    background-color: antiquewhite;
+    background: url('./images/ani10.gif');
+
 }
 
 
-.block-4{
+.block-4 {
     padding-top: 2rem;
     padding-left: 2rem;
     padding-right: 2rem;
-    color: rgb(68, 5, 63);
+    color: rgb(49, 7, 45);
+    z-index: 999;
 }
 
-.block-4 ul{
+.block-4 ul {
     list-style: none;
 
 }
 
-ul h1{
+ul h1 {
     font-weight: 600;
     font-size: 20px;
 }
 
-ul li{
+ul li {
     padding-bottom: 14px;
 }
